@@ -7,9 +7,12 @@
 </head>
 <body>
   <form>
-    <button type="button" name="button" id="clickMe" >Clique-moi !</button>
+    <button type="button" name="button" id ="clickMe">Clique-moi !</button>
   </form>
   <script>
+  $( "#clickMe" ).one( "click", function() {
+    alert( "Bonjour La Manu!" );
+  });
   </script>
 </body>
 </html>
